@@ -1,0 +1,80 @@
+program tkb;
+uses crt;
+type
+  tammon = record
+    a, b, c, d, x, y, z, k: string;
+  end;
+type
+  tkbt = record
+    thuhai, thuba, thubon, thunam, thusau: tammon;
+  end;
+var
+  qh: tkbt;
+  i: integer;
+begin
+  clrscr;
+  writeln('Nhap Mon Cho Thu 2');
+  write('Nhap Mon thu nhat : ');readln(qh.thuhai.a);
+  write('Nhap Mon thu hai : ');readln(qh.thuhai.b);
+  write('Nhap Mon thu ba : ');readln(qh.thuhai.c);
+  write('Nhap Mon thu bon : ');readln(qh.thuhai.d);
+  write('Nhap Mon thu nam : ');readln(qh.thuhai.x);
+  write('Nhap Mon thu sau : ');readln(qh.thuhai.y);
+  write('Nhap Mon thu bay : ');readln(qh.thuhai.z);
+  write('Nhap Mon thu tam : ');readln(qh.thuhai.k);
+  clrscr;
+  writeln('Nhap Mon Cho Thu ba');
+  write('Nhap Mon thu nhat : ');readln(qh.thuba.a);
+  write('Nhap Mon thu hai : ');readln(qh.thuba.b);
+  write('Nhap Mon thu ba : ');readln(qh.thuba.c);
+  write('Nhap Mon thu bon : ');readln(qh.thuba.d);
+  write('Nhap Mon thu nam : ');readln(qh.thuba.x);
+  write('Nhap Mon thu sau : ');readln(qh.thuba.y);
+  write('Nhap Mon thu bay : ');readln(qh.thuba.z);
+  write('Nhap Mon thu tam : ');readln(qh.thuba.k);
+  clrscr;
+  writeln('Nhap Mon Cho Thu bon');
+  write('Nhap Mon thu nhat : ');readln(qh.thubon.a);
+  write('Nhap Mon thu hai : ');readln(qh.thubon.b);
+  write('Nhap Mon thu ba : ');readln(qh.thubon.c);
+  write('Nhap Mon thu bon : ');readln(qh.thubon.d);
+  write('Nhap Mon thu nam : ');readln(qh.thubon.x);
+  write('Nhap Mon thu sau : ');readln(qh.thubon.y);
+  write('Nhap Mon thu bay : ');readln(qh.thubon.z);
+  write('Nhap Mon thu tam : ');readln(qh.thubon.k);
+  clrscr;
+  writeln('Nhap Mon Cho Thu nam');
+  write('Nhap Mon thu nhat : ');readln(qh.thunam.a);
+  write('Nhap Mon thu hai : ');readln(qh.thunam.b);
+  write('Nhap Mon thu ba : ');readln(qh.thunam.c);
+  write('Nhap Mon thu bon : ');readln(qh.thunam.d);
+  write('Nhap Mon thu nam : ');readln(qh.thunam.x);
+  write('Nhap Mon thu sau : ');readln(qh.thunam.y);
+  write('Nhap Mon thu bay : ');readln(qh.thunam.z);
+  write('Nhap Mon thu tam : ');readln(qh.thunam.k);
+  clrscr;
+  writeln('Nhap Mon Cho Thu sau');
+  write('Nhap Mon thu nhat : ');readln(qh.thusau.a);
+  write('Nhap Mon thu hai : ');readln(qh.thusau.b);
+  write('Nhap Mon thu ba : ');readln(qh.thusau.c);
+  write('Nhap Mon thu bon : ');readln(qh.thusau.d);
+  write('Nhap Mon thu nam : ');readln(qh.thusau.x);
+  write('Nhap Mon thu sau : ');readln(qh.thusau.y);
+  write('Nhap Mon thu bay : ');readln(qh.thusau.z);
+  write('Nhap Mon thu tam : ');readln(qh.thusau.k);
+  clrscr;
+  writeln('--------------------------------------------------------');
+  writeln('| Thu 2    | Thu 3    | Thu 4    | Thu 5    | Thu 6    |');
+  writeln('--------------------------------------------------------');
+  writeln('| ', qh.thuhai.a:8, ' | ', qh.thuba.a:8, ' | ', qh.thubon.a:8, ' | ', qh.thunam.a:8, ' | ', qh.thusau.a:8, ' | ');
+  writeln('| ', qh.thuhai.b:8, ' | ', qh.thuba.b:8, ' | ', qh.thubon.b:8, ' | ', qh.thunam.b:8, ' | ', qh.thusau.b:8, ' | ');
+  writeln('| ', qh.thuhai.c:8, ' | ', qh.thuba.c:8, ' | ', qh.thubon.c:8, ' | ', qh.thunam.c:8, ' | ', qh.thusau.c:8, ' | ');
+  writeln('| ', qh.thuhai.d:8, ' | ', qh.thuba.d:8, ' | ', qh.thubon.d:8, ' | ', qh.thunam.d:8, ' | ', qh.thusau.d:8, ' | ');
+  writeln('--------------------------------------------------------');
+  writeln('| ', qh.thuhai.x:8, ' | ', qh.thuba.x:8, ' | ', qh.thubon.x:8, ' | ', qh.thunam.x:8, ' | ', qh.thusau.x:8, ' | ');
+  writeln('| ', qh.thuhai.y:8, ' | ', qh.thuba.y:8, ' | ', qh.thubon.y:8, ' | ', qh.thunam.y:8, ' | ', qh.thusau.y:8, ' | ');
+  writeln('| ', qh.thuhai.z:8, ' | ', qh.thuba.z:8, ' | ', qh.thubon.z:8, ' | ', qh.thunam.z:8, ' | ', qh.thusau.z:8, ' | ');
+  writeln('| ', qh.thuhai.k:8, ' | ', qh.thuba.k:8, ' | ', qh.thubon.k:8, ' | ', qh.thunam.k:8, ' | ', qh.thusau.k:8, ' | ');
+  writeln('--------------------------------------------------------');
+  readln;
+end.
